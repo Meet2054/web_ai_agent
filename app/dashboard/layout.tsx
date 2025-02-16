@@ -3,7 +3,7 @@
 // import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
-import { NavigationProvider } from "@/lib/context/navigation";
+import { NavigationProvider } from "@/lib/context/NavigationProvider";
 import { Authenticated } from "convex/react";
 export default function DashboardLayout({
   children,

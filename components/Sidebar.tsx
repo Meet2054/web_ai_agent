@@ -1,6 +1,6 @@
 "use client"
 import { useRouter } from "next/navigation";
-import { useNavigation } from "@/lib/context/navigation";
+import { useNavigation } from "@/lib/context/NavigationProvider";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useQuery, useMutation } from "convex/react";
